@@ -4,6 +4,7 @@ const StartComponent = () => {
     return(
         <>
         <NavbarComponent />
+        {/* will also contain AboutComponent and ProjectsComponent */}
         </>
     )
 }

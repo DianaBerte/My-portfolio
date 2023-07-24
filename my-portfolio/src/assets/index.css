@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: rgb(37, 37, 37);
+}
+
+.intro-title {
+    font-size: 3rem;
+}
+
+.name-span {
+    color: aquamarine;
+}
+
+.header-container {
+    align-content: center;
+}
+
+.arrow-icon {
+    display: inline-block;
+    transition: transform 0.5s ease;
+  }
+  
+  .my-word-btn:hover .arrow-icon {
+    transform: rotate(90deg);
+  }
