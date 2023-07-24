@@ -5,6 +5,7 @@ body {
 
 .intro-title {
     font-size: 3rem;
+    margin-top: 10rem;
 }
 
 .name-span {
@@ -15,6 +16,10 @@ body {
     align-content: center;
 }
 
+.my-word-btn {
+    margin-top: 1rem;
+}
+
 .arrow-icon {
     display: inline-block;
     transition: transform 0.5s ease;
@@ -22,4 +27,5 @@ body {
   
   .my-word-btn:hover .arrow-icon {
     transform: rotate(90deg);
+    color: aquamarine;
   }

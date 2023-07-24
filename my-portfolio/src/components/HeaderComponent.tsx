@@ -9,7 +9,7 @@ const HeaderComponent = () => {
             <div className="intro-title text-white ">
             Hi, I am{" "}
             <span className="name-span">Diana</span>.
-            <br /> I am a <span className='name-span'>Full-stack Developer</span>.
+            <br />I am a <span className='name-span'>Full-stack Developer</span>.
             </div>
             <button
             //   ref={buttonRef}
@@ -17,7 +17,7 @@ const HeaderComponent = () => {
             className="bg-transparent text-white py-2 px-4 border
             border-white my-word-btn"
             >
-            <span className='arrow-span text-center'>See my projects </span><FaArrowRight className="arrow-icon" />
+            <span className='arrow-span'>See my projects </span><FaArrowRight className="arrow-icon" />
             </button>
         </Container>
       </>
