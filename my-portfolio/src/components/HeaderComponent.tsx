@@ -14,8 +14,7 @@ const HeaderComponent = () => {
             <button
             //   ref={buttonRef}
             //   onClick={handleClick}
-            className="bg-transparent text-white py-2 px-4 border
-            border-white my-word-btn"
+            className="bg-transparent text-white py-2 px-4 my-word-btn"
             >
             <span className='arrow-span'>See my projects </span><FaArrowRight className="arrow-icon" />
             </button>
