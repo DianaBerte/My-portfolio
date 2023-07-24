@@ -19,11 +19,20 @@ body {
 .my-word-btn {
     margin-top: 1rem;
     border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    letter-spacing: 0.2rem;
+    opacity: 0.7;
+}
+
+.my-word-btn:hover {
+    opacity: 1;
+    transition: 1s ease;
 }
 
 .arrow-icon {
     display: inline-block;
-    transition: transform 0.5s ease;
+    transition: transform 0.8s ease;
   }
   
   .my-word-btn:hover .arrow-icon {
