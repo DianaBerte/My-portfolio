@@ -1,3 +1,11 @@
 //this component includes my picture and some info about me
 
-export {}
+const AboutComponent = () => {
+    return (
+        <>
+        <h1 style={{color:"white"}}>ABOUT</h1>
+        </>
+    )
+}
+
+export default AboutComponent
