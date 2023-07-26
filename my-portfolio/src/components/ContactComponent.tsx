@@ -1,4 +1,5 @@
-//this component shows a contact form that can be compiled and sent to me, and my email address as an alternative
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 import NavbarComponent from "./NavbarComponent"
 
 const ContactComponent = () => {
