@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(37, 37, 37);
+}
+
+.intro-title {
+    font-size: 3rem;
+    margin-top: 10rem;
+}
+
+.name-span {
+    color: aquamarine;
+}
+
+.header-container {
+    align-content: center;
+}
+
+.my-word-btn {
+    margin-top: 1rem;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    letter-spacing: 0.2rem;
+    opacity: 0.6;
+}
+
+.my-word-btn:hover {
+    opacity: 1;
+    transition: 2s ease;
+}
+
+.arrow-icon {
+    display: inline-block;
+    transition: transform 0.8s ease;
+  }
+  
+  .my-word-btn:hover .arrow-icon {
+    transform: rotate(90deg);
+    color: aquamarine;
+  }

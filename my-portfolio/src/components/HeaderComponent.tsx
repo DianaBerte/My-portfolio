@@ -18,7 +18,7 @@ const HeaderComponent = () => {
         <>
         <BackgroundComponent />
         <Container className='header-container'>
-            <div className="intro-title text-white ">
+            <div className="intro-title text-white">
             Hi, I am{" "}
             <span className="name-span">Diana</span>.
             <br />I am a <span className='name-span'>Full-stack Developer</span>.

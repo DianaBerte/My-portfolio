@@ -6,7 +6,7 @@ const ContactComponent = () => {
         <>
         <NavbarComponent />
         <div>
-            <h1 style={{color:"white"}}>CONTACT</h1>
+            <h1 className="title">Contact</h1>
         </div>
         </>
     )

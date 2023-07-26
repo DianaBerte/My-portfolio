@@ -6,7 +6,7 @@ const ProjectsComponent = () => {
         <>
         <NavbarComponent />
         <div id="projects">
-            <h1 style={{color:"white"}} >PROJECTS</h1>
+            <h1 className="title">Projects</h1>
         </div>
 
         </>
