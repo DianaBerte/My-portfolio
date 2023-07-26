@@ -3,7 +3,10 @@
 const ProjectsComponent = () => {
     return(
         <>
-        <h1 style={{color:"white"}} id="projects">PROJECTS</h1>
+        <div id="projects">
+            <h1 style={{color:"white"}} >PROJECTS</h1>
+        </div>
+
         </>
     )
 }

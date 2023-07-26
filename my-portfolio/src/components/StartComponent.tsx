@@ -1,13 +1,13 @@
 import NavbarComponent from "./NavbarComponent"
 import AboutComponent from "./AboutComponent"
-import ProjectsComponent from "./ProjectsComponent"
+// import ProjectsComponent from "./ProjectsComponent"
 
 const StartComponent = () => {
     return(
         <>
         <NavbarComponent />
         <AboutComponent />
-        <ProjectsComponent />
+        {/* <ProjectsComponent /> */}
         </>
     )
 }

@@ -3,7 +3,9 @@
 const AboutComponent = () => {
     return (
         <>
-        <h1 style={{color:"white"}}>ABOUT</h1>
+        <div>
+            <h1 style={{color:"white"}}>ABOUT</h1>
+        </div>
         </>
     )
 }
