@@ -4,16 +4,20 @@ import { Container } from 'react-bootstrap'
 import NavbarComponent from "./NavbarComponent"
 
 const ContactComponent = () => {
+
+    const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+    const serviceID = process.env.REACT_APP_SERVICE_ID;
+    const templateID = process.env.REACT_APP_TEMPLATE_ID;
+
     const form = useRef<HTMLFormElement>(null);
 
     const sendEmail = (e: any) => {
       e.preventDefault();
 
-      if (form.current) {
-      emailjs.sendForm("service_mll72lr", "template_7yn6uhm", form.current, "iU-UdQxpDzwKoJddX")
+      if (form.current && serviceID && templateID && publicKey) {
+      emailjs.sendForm(serviceID, templateID, form.current, publicKey)
       .then((result) => {
           console.log(result.text);
-          console.log("YAY")
       }, (error) => {
           console.log(error.text);
       });
