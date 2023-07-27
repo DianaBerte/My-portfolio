@@ -11,7 +11,7 @@ const ContactComponent = () => {
 
     const form = useRef<HTMLFormElement>(null);
 
-    const sendEmail = (e: any) => { //ATTENTION: message is sent even if fields are empty - NEED TO FIX
+    const sendEmail = (e: any) => {
       e.preventDefault();
 
       if (form.current && serviceID && templateID && publicKey) {
@@ -34,11 +34,11 @@ const ContactComponent = () => {
         <div className='contact-form-container-div'>
         <form ref={form} onSubmit={sendEmail}>
             <label></label>
-            <input type="text" placeholder='Your Name' name="user_name" />
+            <input type="text" placeholder='Your Name' name="user_name" required />
             <label></label>
-            <input type="email" placeholder='Your Email Address' name="user_email" />
+            <input type="email" placeholder='Your Email Address' name="user_email" required />
             <label></label>
-            <textarea name="message" placeholder='Type message...'/>
+            <textarea name="message" placeholder='Type message...' required />
             <input type="submit" value="Send" />
         </form>
         </div>
