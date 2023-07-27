@@ -10,7 +10,6 @@
 /* CONTACT FORM */
 
 .contact-form-container-div {
-    /* border: 3px solid red; */
     max-width: 100%;
 }
 
@@ -61,6 +60,12 @@ input[type="submit"] {
     margin-top: 2rem;
     cursor: pointer;
     background: aquamarine;
-    color: white;
+    color: #343a40;
     border: none;
+  }
+
+  input[type="submit"]:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    transition: transform 0.3s ease;
   }
