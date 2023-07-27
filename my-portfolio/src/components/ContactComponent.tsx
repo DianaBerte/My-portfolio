@@ -1,13 +1,16 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { Container } from 'react-bootstrap'
 import NavbarComponent from "./NavbarComponent"
+import FooterComponent from './FooterComponent'
 
 const ContactComponent = () => {
 
     const publicKey = process.env.REACT_APP_PUBLIC_KEY;
     const serviceID = process.env.REACT_APP_SERVICE_ID;
     const templateID = process.env.REACT_APP_TEMPLATE_ID;
+
+    const [isLoading, setIsLoading] = useState(false)
 
     const form = useRef<HTMLFormElement>(null);
 
@@ -17,8 +20,10 @@ const ContactComponent = () => {
       if (form.current && serviceID && templateID && publicKey) {
       emailjs.sendForm(serviceID, templateID, form.current, publicKey)
       .then((result) => {
+        setIsLoading(false);
           console.log(result.text);
       }, (error) => {
+        setIsLoading(false);
           console.log(error.text);
       });
     }
@@ -27,7 +32,7 @@ const ContactComponent = () => {
     return(
         <>
         <NavbarComponent />
-        
+
         <Container className='container'>
         <div className='container-div'>
             <h1 className="title">Contact</h1>
@@ -44,7 +49,9 @@ const ContactComponent = () => {
             <input type="submit" value="Send" />
         </form>
         </div>
+
         </Container>
+        <FooterComponent/>
         </>
     )
 }
