@@ -27,10 +27,12 @@ const ContactComponent = () => {
     return(
         <>
         <NavbarComponent />
+        
         <Container className='container'>
         <div className='container-div'>
             <h1 className="title">Contact</h1>
         </div>
+
         <div className='contact-form-container-div'>
         <form ref={form} onSubmit={sendEmail}>
             <label></label>

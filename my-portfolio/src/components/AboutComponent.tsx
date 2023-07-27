@@ -1,14 +1,18 @@
-//this component includes my picture and some info about me
 import NavbarComponent from "./NavbarComponent"
+import { Container } from "react-bootstrap"
 import '../assets/index.css'
 
 const AboutComponent = () => {
     return (
         <>
         <NavbarComponent />
-        <div>
+
+        <Container className="container">
+        <div className="container-div">
             <h1 className="title">About</h1>
         </div>
+
+        </Container>
         </>
     )
 }

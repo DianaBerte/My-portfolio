@@ -1,14 +1,17 @@
-//this component showcases MandarinApp and redirects the user to other projects
 import NavbarComponent from "./NavbarComponent"
+import { Container } from "react-bootstrap"
 
 const ProjectsComponent = () => {
     return(
         <>
         <NavbarComponent />
-        <div id="projects">
+
+        <Container className="container">
+        <div id="projects" className="container-div">
             <h1 className="title">Projects</h1>
         </div>
-
+        
+        </Container>
         </>
     )
 }
