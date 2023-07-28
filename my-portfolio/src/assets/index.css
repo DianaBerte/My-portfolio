@@ -65,7 +65,27 @@ input[type="submit"] {
   }
 
   input[type="submit"]:hover {
-    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    transition: transform 0.3s ease;
+}
+
+/* ALERTS */
+
+.warning-alert {
+    max-width: max-content;
+}
+
+.warning-alert:hover {
+    transform: translateY(-0.25em);
+    transition: transform 0.3s ease;
+}
+
+.success-alert {
+    max-width: max-content;
+    background-color: aquamarine;
+}
+
+.success-alert:hover {
     transform: translateY(-0.25em);
     transition: transform 0.3s ease;
 }

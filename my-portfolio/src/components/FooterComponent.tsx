@@ -2,7 +2,7 @@
 const FooterComponent = () => {
     return(
         <>
-        <h3 style={{color: "white"}}>Diana Berte' @2023</h3>
+        <h3 style={{color: "white"}}>Diana Berte' | 2023</h3>
         </>
     )
 }
