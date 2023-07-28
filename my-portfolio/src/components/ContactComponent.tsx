@@ -10,9 +10,9 @@ const ContactComponent = () => {
     const serviceID = process.env.REACT_APP_SERVICE_ID;
     const templateID = process.env.REACT_APP_TEMPLATE_ID;
 
-    const [isLoading, setIsLoading] = useState(true)
-    const [showWarningAlert, setShowWarningAlert] = useState(true)
-    const [showSuccessAlert, setShowSuccessAlert] = useState(true)
+    const [isLoading, setIsLoading] = useState(false)
+    const [showWarningAlert, setShowWarningAlert] = useState(false)
+    const [showSuccessAlert, setShowSuccessAlert] = useState(false)
 
     const form = useRef<HTMLFormElement>(null);
 
@@ -74,6 +74,7 @@ const ContactComponent = () => {
         </div>
 
         <div className='contact-form-container-div'>
+          
         <form ref={form} onSubmit={sendEmail}>
             <label></label>
             <input type="text" placeholder='Your Name' name="user_name" required />
@@ -81,12 +82,14 @@ const ContactComponent = () => {
             <input type="email" placeholder='Your Email Address' name="user_email" required />
             <label></label>
             <textarea name="message" placeholder='Type message...' required />
-            <input type="submit" value="Send" />            
+            <input type="submit" value="Send" />      
         </form>
-        </div>
         {isLoading &&
-          <Spinner animation="border" variant='light' role="status"></Spinner>
-        }
+          <Spinner animation="border" variant='light' role="status">
+            <span className="sr-only">Loading...</span>
+          </Spinner>
+        }   
+        </div>
 
         </Container>
         <FooterComponent/>
