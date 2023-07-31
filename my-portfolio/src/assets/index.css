@@ -7,6 +7,14 @@
     color: white;
 }
 
+/* .container {
+
+} */
+
+img {
+    max-width: 100%;
+}
+
 /* CONTACT FORM */
 
 .contact-form-container-div {
