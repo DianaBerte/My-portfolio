@@ -1,9 +1,12 @@
-//this is the footer with the current year and my name (and optionally some other info)
+import { Container } from "react-bootstrap"
+
 const FooterComponent = () => {
     return(
-        <>
-        <h3 style={{color: "white"}}>Diana Berte' | 2023</h3>
-        </>
+        <Container className="mt-5 footer">
+            <div className="mt-5">
+                <h6 className="mt-5" style={{color: "white"}}>Diana Berte' © 2023</h6>
+            </div>
+        </Container>
     )
 }
 export default FooterComponent

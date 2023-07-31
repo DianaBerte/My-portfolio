@@ -89,3 +89,10 @@ input[type="submit"] {
     transform: translateY(-0.25em);
     transition: transform 0.3s ease;
 }
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}

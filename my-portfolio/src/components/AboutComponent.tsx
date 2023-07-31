@@ -1,6 +1,7 @@
 import NavbarComponent from "./NavbarComponent"
 import { Container } from "react-bootstrap"
 import '../assets/index.css'
+import FooterComponent from "./FooterComponent"
 
 const AboutComponent = () => {
     return (
@@ -13,6 +14,7 @@ const AboutComponent = () => {
         </div>
 
         </Container>
+        <FooterComponent />
         </>
     )
 }

@@ -1,3 +1,4 @@
+import FooterComponent from "./FooterComponent"
 import NavbarComponent from "./NavbarComponent"
 import { Container } from "react-bootstrap"
 
@@ -12,6 +13,7 @@ const ProjectsComponent = () => {
         </div>
         
         </Container>
+        <FooterComponent />
         </>
     )
 }
