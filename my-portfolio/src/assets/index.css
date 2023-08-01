@@ -15,6 +15,37 @@ img {
     max-width: 100%;
 }
 
+/* CAROUSEL */
+
+.carousel {
+    border: 3px solid rgb(204, 255, 0);
+    width: 100%;
+}
+
+.customArrowPrev {
+    position: absolute;
+    left: 1rem;
+}
+
+.customArrowNext {
+    position: absolute;
+    right: 1rem;
+}
+
+@media screen and (max-width: 1429px) {
+    .carousel {
+        border: 3px solid red;
+        max-width: 700px;
+    }
+  }
+
+  /* @media screen and (max-width: 1481px) {
+    .carousel {
+        border: 3px solid rgb(0, 255, 72);
+        max-height: 100px;
+    }
+  } */
+
 /* CONTACT FORM */
 
 .contact-form-container-div {
