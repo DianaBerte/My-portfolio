@@ -13,7 +13,7 @@ const AboutComponent = () => {
             <h1 className="title">About</h1>
         </div>
 
-        <div className='contact-form-container-div'>
+        <div>
 
             <Row>
                 <Col lg={4} md={6} sm={6} xs={6} style={{color: "whitesmoke"}}>
