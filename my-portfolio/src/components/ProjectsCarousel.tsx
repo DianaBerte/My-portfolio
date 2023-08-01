@@ -79,36 +79,31 @@ const ProjectsCarousel: React.FC = () => {
             <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
-            >bla
-            <img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
+            ><img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
             </div>
 
             <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(1)}
             onMouseLeave={handleMouseLeave}
-            >bla
-            <img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
+            ><img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
             </div>
 
             <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
-            >bla
-            <img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
+            ><img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
             </div>
 
             <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
-            >bla
-            <img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
+            ><img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
             </div>
 
             <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
-            >bla
-            <img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
+            ><img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
             </div>
         </Carousel>
         </Col>

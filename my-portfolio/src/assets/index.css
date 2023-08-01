@@ -7,9 +7,17 @@
     color: white;
 }
 
-/* .container {
+@media screen and (max-width: 1729px) {
+    .title {
+        margin-top: 5rem;
+    }
+  }
 
-} */
+  @media screen and (max-width: 1187px) {
+    .title {
+        margin-top: 2rem;
+    }
+  }
 
 img {
     max-width: 100%;
@@ -125,4 +133,22 @@ input[type="submit"] {
 .footer {
     display: flex;
     justify-content: center;
-}
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 1rem 0;
+  }
+
+  .footer-title {
+    margin-top: 0;
+    color: whitesmoke;
+    font-size: 1rem;
+  }
+
+  @media screen and (max-width: 990px) {
+    .footer {
+        justify-content: flex-end;
+    }
+  }
