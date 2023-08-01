@@ -76,35 +76,35 @@ const ProjectsCarousel: React.FC = () => {
         interval={3000}
         transitionTime={500}
         >
-            <div
+            <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
             >bla
             <img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
             </div>
 
-            <div
+            <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(1)}
             onMouseLeave={handleMouseLeave}
             >bla
             <img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
             </div>
 
-            <div
+            <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
             >bla
             <img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
             </div>
 
-            <div
+            <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
             >bla
             <img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
             </div>
 
-            <div
+            <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
             >bla
