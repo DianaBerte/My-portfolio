@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .title {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -49,6 +54,26 @@ img {
         max-width: 600px;
     }
   }
+
+
+/* ABOUT */
+
+.container {
+    overflow: auto;
+    max-height: 35rem;
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: aqua;
+}
+
+.fe-span {
+    font-size: 1.2rem;
+}
+
+.be-span {
+    font-size: 1.2rem;
+}
 
 /* CONTACT FORM */
 
