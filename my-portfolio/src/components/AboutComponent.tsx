@@ -22,20 +22,20 @@ const AboutComponent = () => {
                 <Col lg={4} md={6} sm={6} xs={6} style={{color: "whitesmoke"}}>
                 <img className="me-img" src={meImage} alt="Profile img" />
                 </Col>
-                <Col lg={8} md={8} sm={8} xs={8} style={{color: "whitesmoke"}}><span><h3>It's nice to see you here!</h3></span>
-                <br/>My current skills in web development are:
-                <br/>
-                <br/>
+                <Col lg={8} md={8} sm={8} xs={8} style={{color: "whitesmoke"}}><span><h3>It's nice to see you here!</h3></span><br/>
+                <p>My current skills in web development are:</p>
                 <span className="fe-span">Front-end: HTML & CSS | JavaScript | Bootstrap | React | React Redux | TypeScript </span><br/>
                 <span className="be-span" >Back-end: Express.js | MongoDB | PostgreSQL | Security & Authentication</span><br/>
                 <br/>
-                <p>I am looking for a position as Back-end developer | Front-end developer, on-site or remote.</p>
-                <br/>
-                <span className="random">Random facts about me:</span><ul>
-                <li><p className="random">CSS can be fun, but usually it's not my fav part!</p></li>
-                <li><p className="random">Before becoming a web developer, I used to work in marketing.</p></li>
-                <p className="random"><li>I love learning languages, both programming and natural! Besides JavaScript, I can speak Italian, Slovene, English, and some Chinese 😉</li></p>
-</ul>
+                
+                <p>I have engaged in projects assigned to me that closely mirror corporate practices:
+                    <ul>
+                        <li>Collaborating within a team of developers, we divided tasks and provided daily work updates;</li>
+                        <li>I autonomously worked on personal projects;</li>
+                        <li>Each project had distinct deadlines, all of which I consistently met.</li>
+                    </ul>
+                    </p>
+                <p>I am looking for a position as a Back-end developer | Front-end developer, on-site or remote.</p>
                 </Col>
             </Row>
 
