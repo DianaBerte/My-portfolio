@@ -7,7 +7,9 @@ import FooterComponent from "./FooterComponent"
 const AboutComponent = () => {
     return (
         <>
+        
         <NavbarComponent />
+        <div className="scroll-div">
 
         <Container className="container">
         <div className="container-div">
@@ -18,7 +20,7 @@ const AboutComponent = () => {
 
             <Row>
                 <Col lg={4} md={6} sm={6} xs={6} style={{color: "whitesmoke"}}>
-                <img className="me-img" src={meImage} alt="placeholder" />
+                <img className="me-img" src={meImage} alt="Profile img" />
                 </Col>
                 <Col lg={8} md={8} sm={8} xs={8} style={{color: "whitesmoke"}}><span><h3>Hi! It's nice to see you here!</h3></span>
                 <br/>My current skills in web development are:
@@ -38,6 +40,7 @@ const AboutComponent = () => {
         </div>
 
         </Container>
+        </div>
         <FooterComponent />
         </>
     )
