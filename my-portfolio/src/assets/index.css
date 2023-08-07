@@ -154,6 +154,7 @@ textarea:focus {
 
 input[type="submit"] {
     margin-top: 2rem;
+    padding: 0;
     cursor: pointer;
     background: aquamarine;
     color: #343a40;
