@@ -31,7 +31,7 @@ const ProjectsCarousel: React.FC = () => {
         top: "50%",
         transform: "translateY(-50%)",
         zIndex: 10,
-        backgroundColor: "transparent",
+        backgroundColor: "white",
         color: "#000",
         fontSize: "2rem",
         padding: "0.5rem",
