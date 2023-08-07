@@ -24,15 +24,6 @@ body {
     }
   }
 
-img {
-    max-width: 100%;
-}
-
-.me-img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
 /* CAROUSEL */
 
 .carousel {
@@ -67,10 +58,24 @@ img {
     box-sizing: border-box;
 }
 
-.random {
-    font-size: small;
+img {
+    max-width: 100%;
+}
+
+.me-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    font-size: large;
     letter-spacing: 0.05rem;
 }
+
+/* .random {
+    font-size: small;
+    letter-spacing: 0.05rem;
+} */
 
 ::-webkit-scrollbar {
     width: 5px;
@@ -91,10 +96,14 @@ img {
 
 .fe-span {
     font-weight: 600;
+    font-size: large;
+    letter-spacing: 0.05rem;
 }
 
 .be-span {
     font-weight: 600;
+    font-size: large;
+    letter-spacing: 0.05rem;
 }
 
 /* CONTACT FORM */
