@@ -22,18 +22,20 @@ const AboutComponent = () => {
                 <Col lg={4} md={6} sm={6} xs={6} style={{color: "whitesmoke"}}>
                 <img className="me-img" src={meImage} alt="Profile img" />
                 </Col>
-                <Col lg={8} md={8} sm={8} xs={8} style={{color: "whitesmoke"}}><span><h3>Hi! It's nice to see you here!</h3></span>
+                <Col lg={8} md={8} sm={8} xs={8} style={{color: "whitesmoke"}}><span><h3>It's nice to see you here!</h3></span>
                 <br/>My current skills in web development are:
+                <br/>
                 <br/>
                 <span className="fe-span">Front-end: HTML & CSS | JavaScript | Bootstrap | React | React Redux | TypeScript </span><br/>
                 <span className="be-span" >Back-end: Express.js | MongoDB | PostgreSQL | Security & Authentication</span><br/>
                 <br/>
                 <p>I am looking for a position as Back-end developer | Front-end developer, on-site or remote.</p>
                 <br/>
-                <span>Fun facts about me:</span><ul><br/>
-                <p><li>I love learning languages! I can speak four.</li></p>
-                <li><p>My favorite foods are pizza (well, I'm Italian), and Korean bibimbap.</p></li>
-                <li><p>Weightlifting is my go-to workout!</p></li></ul>
+                <span className="random">Random facts about me:</span><ul>
+                <li><p className="random">CSS can be fun, but usually it's not my fav part!</p></li>
+                <li><p className="random">Before becoming a web developer, I used to work in marketing.</p></li>
+                <p className="random"><li>I love learning languages, both programming and natural! Besides JavaScript, I can speak Italian, Slovene, English, and some Chinese 😉</li></p>
+</ul>
                 </Col>
             </Row>
 
