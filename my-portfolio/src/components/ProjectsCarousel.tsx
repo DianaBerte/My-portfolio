@@ -5,6 +5,16 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { FaChevronRight } from 'react-icons/fa'
 import { FaChevronLeft } from 'react-icons/fa'
 import { ICustomArrowStyles } from '../interfaces/ICustomArrowStyles'
+import regPage from '../assets/MApp_Registration page.png'
+import homepage from '../assets/MApp_Homepage.png'
+import levelPage from '../assets/MApp_Choose your level.png'
+import countdown from '../assets/MApp_Countdown to start.png'
+import exercises from '../assets/MApp_Intermediate exercises.png'
+import audio from '../assets/MApp_Audio exercises.png'
+import finalScore from '../assets/MApp_Final score page.png'
+import profile from '../assets/MApp_Profile page.png'
+import updateProfile from '../assets/MApp_Update profile section.png'
+import admin from '../assets/MApp_Admin handle users section.png'
 
 const ProjectsCarousel: React.FC = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null)
@@ -79,31 +89,61 @@ const ProjectsCarousel: React.FC = () => {
             <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
-            ><img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
+            ><img className='carousel-img' src={regPage} alt='Carousel img' />
             </div>
 
             <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(1)}
             onMouseLeave={handleMouseLeave}
-            ><img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
+            ><img className='carousel-img' src={homepage} alt='Carousel img' />
             </div>
 
             <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
-            ><img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
+            ><img className='carousel-img' src={levelPage} alt='Carousel img' />
             </div>
 
             <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
-            ><img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
+            ><img className='carousel-img' src={countdown} alt='Carousel img' />
             </div>
 
             <div className='carousel-div'
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
-            ><img className='carousel-img' src='https://www.pngkey.com/png/detail/233-2332677_ega-png.png' alt='Carousel img' />
+            ><img className='carousel-img' src={exercises} alt='Carousel img' />
+            </div>
+
+            <div className='carousel-div'
+            onMouseEnter={() => handleMouseEnter(0)}
+            onMouseLeave={handleMouseLeave}
+            ><img className='carousel-img' src={audio} alt='Carousel img' />
+            </div>
+
+            <div className='carousel-div'
+            onMouseEnter={() => handleMouseEnter(0)}
+            onMouseLeave={handleMouseLeave}
+            ><img className='carousel-img' src={finalScore} alt='Carousel img' />
+            </div>
+
+            <div className='carousel-div'
+            onMouseEnter={() => handleMouseEnter(0)}
+            onMouseLeave={handleMouseLeave}
+            ><img className='carousel-img' src={profile} alt='Carousel img' />
+            </div>
+
+            <div className='carousel-div'
+            onMouseEnter={() => handleMouseEnter(0)}
+            onMouseLeave={handleMouseLeave}
+            ><img className='carousel-img' src={updateProfile} alt='Carousel img' />
+            </div>
+
+            <div className='carousel-div'
+            onMouseEnter={() => handleMouseEnter(0)}
+            onMouseLeave={handleMouseLeave}
+            ><img className='carousel-img' src={admin} alt='Carousel img' />
             </div>
         </Carousel>
         </Col>

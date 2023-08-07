@@ -72,11 +72,6 @@ p {
     letter-spacing: 0.05rem;
 }
 
-/* .random {
-    font-size: small;
-    letter-spacing: 0.05rem;
-} */
-
 ::-webkit-scrollbar {
     width: 5px;
 }
