@@ -26,8 +26,24 @@ body {
 
 /* CAROUSEL */
 
+.projects-container {
+    display: flex;
+}
+
+.left-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40rem;
+}
+
 .carousel {
     max-width: 100%;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .customArrowPrev {

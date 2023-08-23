@@ -83,7 +83,7 @@ const ProjectsCarousel: React.FC = () => {
         renderArrowNext={renderCustomArrowNext}
         infiniteLoop={true}
         autoPlay={true}
-        interval={3000}
+        interval={5000}
         transitionTime={500}
         >
             <div className='carousel-div'
