@@ -1,7 +1,6 @@
 import NavbarComponent from "./NavbarComponent"
 import { Container, Row, Col } from "react-bootstrap"
 import '../assets/index.css'
-import meImage from '../assets/Diana foto HSK.jpg'
 import FooterComponent from "./FooterComponent"
 
 const AboutComponent = () => {
@@ -20,7 +19,7 @@ const AboutComponent = () => {
 
             <Row>
                 <Col lg={4} md={6} sm={6} xs={6} style={{color: "whitesmoke"}}>
-                <img className="me-img" src={meImage} alt="Profile img" />
+                <img className="me-img" src="https://res.cloudinary.com/degg5zebq/image/upload/v1692889479/Portfolio/IMG_6651_2_vazjeu.jpg" alt="Profile img" />
                 </Col>
                 <Col lg={8} md={8} sm={8} xs={8} style={{color: "whitesmoke"}}><span><h3>It's nice to see you here!</h3></span><br/>
                 <p>My current skills in web development are:</p>

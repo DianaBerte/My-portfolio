@@ -5,7 +5,6 @@ import AboutComponent from './components/AboutComponent';
 import HeaderComponent from './components/HeaderComponent';
 import ProjectsComponent from './components/ProjectsComponent';
 import ContactComponent from './components/ContactComponent';
-// import './App.css';
 import './assets/header.css'
 
 function App() {
