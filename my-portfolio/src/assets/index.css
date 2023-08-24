@@ -28,6 +28,7 @@ body {
 
 .projects-container {
     display: flex;
+    width: 110%;
 }
 
 .left-container {
@@ -43,7 +44,8 @@ body {
 .right-container {
     display: flex;
     flex-direction: column;
-
+    border-left: 1px solid grey;
+    padding-left: 2rem;
 }
 
 .customArrowPrev {
@@ -56,11 +58,31 @@ body {
     right: 1rem;
 }
 
+.styled-links {
+    color: white;
+    text-decoration: underline;
+}
+
+.styled-links:hover {
+    color: aquamarine;
+}
+
 @media screen and (max-width: 1829px) {
     .carousel {
         max-width: 600px;
     }
   }
+
+@media screen and (max-width: 987px) {
+    .projects-container {
+        flex-direction: column;
+    }
+    .right-container {
+        border-left: none;
+        padding-left: 0;
+        padding-top: 2rem;
+    }
+}
 
 
 /* ABOUT */

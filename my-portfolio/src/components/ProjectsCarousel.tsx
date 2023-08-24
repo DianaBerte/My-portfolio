@@ -31,9 +31,9 @@ const ProjectsCarousel: React.FC = () => {
         top: "50%",
         transform: "translateY(-50%)",
         zIndex: 10,
-        backgroundColor: "white",
+        backgroundColor: "lightgrey",
         color: "#000",
-        fontSize: "2rem",
+        fontSize: "1rem",
         padding: "0.5rem",
         cursor: "pointer",
         transition: "color 0.3s ease-in-out",
@@ -83,7 +83,7 @@ const ProjectsCarousel: React.FC = () => {
         renderArrowNext={renderCustomArrowNext}
         infiniteLoop={true}
         autoPlay={true}
-        interval={5000}
+        interval={4000}
         transitionTime={500}
         >
             <div className='carousel-div'
