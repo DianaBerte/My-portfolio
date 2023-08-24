@@ -26,6 +26,11 @@ body {
 
 /* CAROUSEL */
 
+.projects-page-container {
+    /* max-width: max-content; */
+    /* max-height: max-content; */
+}
+
 .projects-container {
     display: flex;
     width: 110%;
@@ -92,8 +97,11 @@ body {
 }
 
 .container {
-    max-height: calc(30rem - 5px);
+    /* max-height: calc(30rem - 5px); */
+    max-height: 100%;
     box-sizing: border-box;
+    margin-left: 15rem;
+    padding: 0;
 }
 
 .me-img {

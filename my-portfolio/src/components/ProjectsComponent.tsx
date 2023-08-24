@@ -8,7 +8,7 @@ const ProjectsComponent = () => {
         <>
         <NavbarComponent />
 
-        <Container className="container">
+        <Container className="projects-page-container">
             
         <div id="projects" className="container-div">
             <h1 className="title">Projects</h1>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { FaChevronRight } from 'react-icons/fa'
@@ -60,7 +60,6 @@ const ProjectsCarousel: React.FC = () => {
     )
 
     return(
-        <Container >
             <Row>
                 <Col >
         <Carousel 
@@ -138,7 +137,6 @@ const ProjectsCarousel: React.FC = () => {
         </Carousel>
         </Col>
         </Row>
-        </Container>
     )
 }
 
