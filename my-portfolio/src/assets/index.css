@@ -96,10 +96,6 @@ body {
     box-sizing: border-box;
 }
 
-img {
-    max-width: 100%;
-}
-
 .me-img {
     max-width: 100%;
     border-radius: 10px;
