@@ -26,6 +26,7 @@ const ContactComponent = () => {
 
         console.log("HEY, HI THERE.")
         console.log("Public key: ", publicKey)
+        console.log("SID: ", serviceID)
 
         emailjs.sendForm(serviceID as string, templateID as string, form.current as any, publicKey as string)
           .then((result) => {
