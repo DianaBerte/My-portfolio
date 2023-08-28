@@ -47,7 +47,7 @@ body {
 
 @media screen and (max-width: 835px) {
     .header-container {
-        margin: 0;
+        margin-left: 1rem;
     }
     .intro-title {
         font-size: 2rem;
