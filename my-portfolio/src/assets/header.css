@@ -14,7 +14,11 @@ body {
 }
 
 .header-container {
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15rem;
+    /* border: 3px solid red; */
 }
 
 .my-word-btn {
@@ -39,4 +43,13 @@ body {
   .my-word-btn:hover .arrow-icon {
     transform: rotate(90deg);
     color: aquamarine;
+  }
+
+@media screen and (max-width: 835px) {
+    .header-container {
+        margin: 0;
+    }
+    .intro-title {
+        font-size: 2rem;
+    }
   }

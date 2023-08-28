@@ -21,7 +21,7 @@ const AboutComponent = () => {
                 <Col lg={4} md={6} sm={6} xs={6} style={{color: "whitesmoke"}}>
                 <img className="me-img" src="https://res.cloudinary.com/degg5zebq/image/upload/v1692889479/Portfolio/IMG_6651_2_vazjeu.jpg" alt="Profile img" />
                 </Col>
-                <Col lg={8} md={8} sm={8} xs={8} style={{color: "whitesmoke"}}><span><h3>Hi! It's nice to see you here!</h3></span><br/>
+                <Col lg={8} md={8} sm={8} xs={8} style={{color: "whitesmoke"}}><span><h3>Hi! It's nice to see you here.</h3></span><br/>
                 <p>My current skills in web development are:</p>
                 <span className="fe-span">Front-end: HTML & CSS | JavaScript | Bootstrap | React | React Redux | TypeScript </span><br/>
                 <span className="be-span" >Back-end: Express.js | MongoDB | PostgreSQL | Security & Authentication</span><br/>
