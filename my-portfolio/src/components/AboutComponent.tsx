@@ -11,12 +11,13 @@ const AboutComponent = () => {
         <div className="scroll-div">
 
         <Container className="container">
-        <div className="container-div">
+
+        <div className="title-container">
             <h1 className="title">About</h1>
         </div>
 
-        <div>
-
+        <div className="about-container">
+            <div className="text-container">
             <Row>
                 <Col lg={4} md={6} sm={6} xs={6} style={{color: "whitesmoke"}}>
                 <img className="me-img" src="https://res.cloudinary.com/degg5zebq/image/upload/v1692889479/Portfolio/IMG_6651_2_vazjeu.jpg" alt="Profile img" />
@@ -37,6 +38,7 @@ const AboutComponent = () => {
                 <p>I am looking for a position as a Back-end developer | Front-end developer, on-site or remote.</p>
                 </Col>
             </Row>
+            </div>
 
         </div>
 
