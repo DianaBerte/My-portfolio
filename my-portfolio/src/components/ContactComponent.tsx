@@ -21,12 +21,12 @@ const ContactComponent = () => {
 
       console.log("HELLOOOOOO")
 
-      if (form.current && serviceID && templateID && publicKey) {
+      // if (form.current && serviceID && templateID && publicKey) {
         setIsLoading(true);
 
         console.log("HEY, HI THERE.")
 
-        emailjs.sendForm(serviceID, templateID, form.current, publicKey)
+        emailjs.sendForm(serviceID as string, templateID as string, form.current as any, publicKey as string)
           .then((result) => {
           setIsLoading(false);
           setShowSuccessAlert(true);
@@ -42,7 +42,7 @@ const ContactComponent = () => {
           console.log("OH NO :(")
       });
     }
-  };
+  // };
 
   const handleWarningAlertClose =  () => {
     setShowWarningAlert(false);
