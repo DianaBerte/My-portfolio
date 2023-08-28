@@ -21,7 +21,7 @@ const ContactComponent = () => {
 
       console.log("HELLOOOOOO")
 
-      if (publicKey) {
+      // if (form.current && serviceID && templateID && publicKey) {
         setIsLoading(true);
 
         console.log("HEY, HI THERE.")
@@ -42,7 +42,7 @@ const ContactComponent = () => {
           console.log("OH NO :(")
       });
     }
-  };
+  // };
 
   const handleWarningAlertClose =  () => {
     setShowWarningAlert(false);
