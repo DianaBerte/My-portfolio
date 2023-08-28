@@ -24,7 +24,7 @@ const ContactComponent = () => {
       // if (form.current && serviceID && templateID && publicKey) {
         setIsLoading(true);
 
-        console.log("HEY, HI THERE.", publicKey)
+        console.log("HEY, HI THERE.")
         console.log("Public key: ", publicKey)
 
         emailjs.sendForm(serviceID as string, templateID as string, form.current as any, publicKey as string)
