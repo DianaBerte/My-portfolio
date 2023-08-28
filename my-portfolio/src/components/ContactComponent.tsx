@@ -18,33 +18,20 @@ const ContactComponent = () => {
 
     const sendEmail = (e: any) => {
       e.preventDefault();
-
-      console.log("HELLOOOOOO")
-
-      // if (form.current && serviceID && templateID && publicKey) {
-        setIsLoading(true);
-
-        console.log("HEY, HI THERE.")
-        console.log("Public key: ", publicKey)
-        console.log("SID: ", serviceID)
+      setIsLoading(true);
 
         emailjs.sendForm(serviceID as string, templateID as string, form.current as any, publicKey as string)
           .then((result) => {
           setIsLoading(false);
           setShowSuccessAlert(true);
           console.log(result.text);
-
-          console.log("YAY!")
-
+          
       }, (error) => {
           setIsLoading(false);
           setShowWarningAlert(true);
           console.log(error.text);
-
-          console.log("OH NO :(")
       });
     }
-  // };
 
   const handleWarningAlertClose =  () => {
     setShowWarningAlert(false);
