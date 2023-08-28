@@ -19,6 +19,8 @@ const ContactComponent = () => {
     const sendEmail = (e: any) => {
       e.preventDefault();
 
+      console.log("HELLOOOOOO")
+
       if (form.current && serviceID && templateID && publicKey) {
         setIsLoading(true);
 
