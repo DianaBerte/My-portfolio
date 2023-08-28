@@ -6,6 +6,7 @@ body {
 .title-container {
     margin-top: 5rem;
     max-width: fit-content;
+    border: 3px solid red;
 }
 
 .title {
@@ -86,6 +87,7 @@ body {
     .projects-container {
         flex-direction: column;
         margin-left: -12rem;
+        border: 3px solid red;
     }
     .right-container {
         border-left: none;
@@ -147,6 +149,7 @@ p {
     font-size: large;
     letter-spacing: 0.05rem;
 }
+
 
 /* CONTACT FORM */
 
