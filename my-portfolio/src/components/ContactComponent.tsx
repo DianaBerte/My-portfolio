@@ -24,16 +24,22 @@ const ContactComponent = () => {
       if (form.current && serviceID && templateID && publicKey) {
         setIsLoading(true);
 
+        console.log("HEY, HI THERE.")
+
         emailjs.sendForm(serviceID, templateID, form.current, publicKey)
           .then((result) => {
           setIsLoading(false);
           setShowSuccessAlert(true);
           console.log(result.text);
 
+          console.log("YAY!")
+
       }, (error) => {
           setIsLoading(false);
           setShowWarningAlert(true);
           console.log(error.text);
+
+          console.log("OH NO :(")
       });
     }
   };
