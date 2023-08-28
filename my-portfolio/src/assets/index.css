@@ -3,18 +3,23 @@ body {
     padding: 0;
 }
 
+.title-container {
+    margin-top: 10rem;
+    max-width: fit-content;
+}
+
 .title {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 3rem;
-    margin-top: 10rem;
     letter-spacing: 0.2rem;
     color: white;
 }
 
 @media screen and (max-width: 1729px) {
-    .title {
+    .title-container {
         margin-top: 5rem;
+        margin-left: -12rem;
     }
   }
 
@@ -24,11 +29,11 @@ body {
     }
   }
 
-/* CAROUSEL */
+/* PROJECTS */
 
 .projects-container {
     display: flex;
-    width: 110%;
+    width: 110%;    
 }
 
 .left-container {
@@ -77,9 +82,10 @@ body {
     }
   }
 
-@media screen and (max-width: 987px) {
+@media screen and (max-width: 1729px) {
     .projects-container {
         flex-direction: column;
+        margin-left: -12rem;
     }
     .right-container {
         border-left: none;

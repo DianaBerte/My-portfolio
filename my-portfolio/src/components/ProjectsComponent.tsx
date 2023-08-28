@@ -10,7 +10,7 @@ const ProjectsComponent = () => {
 
         <Container className="projects-page-container">
             
-        <div id="projects" className="container-div">
+        <div id="projects" className="title-container">
             <h1 className="title">Projects</h1>
         </div>
 
