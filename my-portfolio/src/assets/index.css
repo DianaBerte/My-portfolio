@@ -215,13 +215,36 @@ p {
 
 /* CONTACT FORM */
 
-.contact-form-container-div {
-    max-width: 50%;
+.contact-page-container {
+    max-width: 40%;
+    max-height: fit-content;
+    box-sizing: border-box;
+    margin-left: 15rem;
+    padding: 0;
 }
 
-@media screen and (max-width: 990px) {
-    .contact-form-container-div  {
+.contact-form-container {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1251px) {
+    .contact-page-container {
+        padding-left: 0;
+        padding-top: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .contact-page-container {
         max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-page-container {
+        max-width: 100%;
     }
 }
 

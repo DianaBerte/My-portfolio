@@ -48,7 +48,7 @@ const ContactComponent = () => {
         <>
         <NavbarComponent />
 
-        <Container className='container'>
+        <Container className='contact-page-container'>
 
         {/* Warning alert */}
         {showWarningAlert && (
@@ -66,11 +66,11 @@ const ContactComponent = () => {
           </Alert>
         )}
 
-        <div className='container-div'>
+        <div className='title-container'>
             <h1 className="title">Contact</h1>
         </div>
 
-        <div className='contact-form-container-div'>
+        <div className='contact-form-container'>
           
         <form ref={form} onSubmit={sendEmail}>
             <label></label>
