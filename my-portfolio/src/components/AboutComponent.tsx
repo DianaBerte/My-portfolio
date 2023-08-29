@@ -8,7 +8,7 @@ const AboutComponent = () => {
         <>
         
         <NavbarComponent />
-        {/* <div className="scroll-div"> */}
+        <div className="scroll-div">
 
         <Container className="about-page-container">
 
@@ -22,13 +22,13 @@ const AboutComponent = () => {
             {/* <Row> */}
                 {/* <Col lg={4} md={6} sm={6} xs={6} style={{color: "whitesmoke"}}> */}
 
-                <div className="left-container">
+                <div className="about-left-container">
                 <img className="me-img" src="https://res.cloudinary.com/degg5zebq/image/upload/v1692889479/Portfolio/IMG_6651_2_vazjeu.jpg" alt="Profile img" />
                 </div>
 
                 {/* </Col> */}
                 {/* <Col lg={8} md={8} sm={8} xs={8} style={{color: "whitesmoke"}}> */}
-                <div style={{color: "whitesmoke"}} className="right-container">
+                <div style={{color: "whitesmoke"}} className="about-right-container">
                 <h3>Hi! It's nice to see you here.</h3><br/>
                 <p>My current skills in web development are:</p>
                 <span className="fe-span">Front-end: HTML & CSS | JavaScript | Bootstrap | React | React Redux | TypeScript </span><br/>
@@ -51,7 +51,7 @@ const AboutComponent = () => {
         {/* </div> */}
 
         </Container>
-        {/* </div> */}
+        </div>
         <FooterComponent />
         </>
     )
